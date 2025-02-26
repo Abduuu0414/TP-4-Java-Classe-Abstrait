@@ -8,7 +8,8 @@ public abstract class Personne {
 	protected String mail;
 	protected String telephone;
 	protected double salaire;
-	int comp;
+	
+	static int comp;
 
 	public Personne(String nom, String prenom, String mail, String telephone, double salaire) {
 		this.id = ++comp;
